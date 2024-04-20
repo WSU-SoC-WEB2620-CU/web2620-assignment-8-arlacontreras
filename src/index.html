@@ -1,16 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+    <title>Example 08</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <i class="fab fa-bootstrap"></i>
+          <a class="navbar-brand" href="#">Arla Contreras</a>
+          <ul class="nav justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-<head>
-  <meta charset="utf-8">
-  <title>Project Starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+    <main>
+      <div class="p-5 bg-primary container-fluid text-white hero">
+        <h1 class="display-3">A Bootstrap Demo</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio neque molestias quisquam deleniti ea, maiores
+          alias modi blanditiis architecto ab! Incidunt voluptate unde laboriosam itaque totam sit, numquam et nobis.
+        </p>
+        <div class="text-center">
+          <button type="button" class="btn btn-info center">Click here to see more</button>
+          <button type="button" class="btn btn-warning">Click here to see a demo</button>
+        </div>
+      </div>
+      <br />
+      <div class="container mainContainer">
+        <div class="row">
+          <div class="text-center">
+            <h2>Features</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis maiores nostrum ducimus, molestias
+              voluptatum alias modi ad cupiditate vero qui accusamus eum ratione quaerat architecto, voluptas magni
+              dolor perferendis.
+            </p>
+          </div>
 
-<body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
-</body>
+          <div class="col">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img"
+                width="100%"
+                height="120"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+              >
+                <rect width="100%" height="100%" fill="rgb(108, 117, 125)"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img"
+                width="100%"
+                height="120"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+              >
+                <rect width="100%" height="100%" fill="rgb(108, 117, 125)"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img"
+                width="100%"
+                height="120"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+              >
+                <rect width="100%" height="100%" fill="rgb(108, 117, 125)"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-5">
+            <h2 class="text-center">Plans</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur eos cupiditate, qui minima
+              nesciunt suscipit aliquid quae accusantium totam. Nam reprehenderit adipisci provident harum deserunt sit
+              earum debitis distinctio.
+            </p>
+          </div>
+          <div class="col">
+            <div class="container">
+              <table class="table planTable">
+                <thead>
+                  <tr>
+                    <th scope="col-2">Features</th>
+                    <th scope="col" class="text-center">Free</th>
+                    <th scope="col" class="table-active text-center">Pro</th>
+                    <th scope="col" class="text-center">Enterprise</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lorem ipsum dolor</td>
+                    <td>check</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Sit amet consectur</td>
+                    <td>check</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Adipisicing elit atque</td>
+                    <td>check</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Nemo rerum esse tempore</td>
+                    <td>x</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Quasi nesciunt commodi</td>
+                    <td>x</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Odit in nihil labore</td>
+                    <td>x</td>
+                    <td class="table-active">check</td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Cupidate id debitis</td>
+                    <td>x</td>
+                    <td class="table-active"></td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Aperiam quia quae cum</td>
+                    <td>x</td>
+                    <td class="table-active"></td>
+                    <td>check</td>
+                  </tr>
+                  <tr>
+                    <td>Eligendi blanditiis</td>
+                    <td>x</td>
+                    <td class="table-active"></td>
+                    <td>check</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row text-center">
+          <h2>Pricing</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque, cumque ullam ut totam
+            dolorem eligendi quisquam porro ipsa ipsum veritatis nesciunt ex dolorum repellat eaque eius deleniti minima
+            optio.
+          </p>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">Free</div>
+              <div class="card-body">
+                <h5 class="card-title">$0 / month</h5>
+                <a href="#" class="btn btn-outline-primary">Sign up for free</a>
+              </div>
+              <br />
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">10 users included</li>
+                <li class="list-group-item">2 GB of storage</li>
+                <li class="list-group-item">Email Support</li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header bg-secondary">Pro</div>
+              <div class="card-body">
+                <h5 class="card-title">$15 / month</h5>
+                <a href="#" class="btn btn-secondary">Get started</a>
+              </div>
+              <br />
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">20 users included</li>
+                <li class="list-group-item">10 GB of storage</li>
+                <li class="list-group-item">Priority Email Support</li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header bg-primary">Enterprise</div>
+              <div class="card-body">
+                <h5 class="card-title">$29 / month</h5>
+                <a href="#" class="btn btn-primary">Contact us</a>
+              </div>
+              <br />
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">30 users included</li>
+                <li class="list-group-item">20 GB of storage</li>
+                <li class="list-group-item">Phone Email Support</li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row gallery">
+          <div class="container text-light">
+            <div class="d-flex flex-row">
+              <div class="d-flex flex-column">
+                <div class="galleryHeader"><h2>Gallery</h2></div>
+                <div class="d-flex flex-row">
+                  <div><img src="images/img1.jpg" alt="" width="200px" /></div>
+                  <div><img src="images/img3.jpg" alt="" width="200px" /></div>
+                </div>
+                <div><img src="images/img2.jpg" alt="" width="400px" /></div>
+              </div>
+              <div class="d-flex flex-column">
+                <div><img src="images/img4.jpg" alt="" width="200px" /></div>
+                <div class="flex-grow-1"><img src="images/img5.jpg" alt="" width="200px" height="380px" /></div>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row">
+                  <div><img src="images/img7.jpg" alt="" width="130px" /></div>
+                  <div><img src="images/img8.jpg" alt="" width="130px" /></div>
+                  <div><img src="images/img9.jpg" alt="" width="130px" /></div>
+                </div>
+                <div><img src="images/img6.jpg" alt="" width="390px" height="217px" /></div>
+                <div class="d-flex flex-row">
+                  <div><img src="images/img11.jpg" alt="" width="195px" height="270px" /></div>
+                  <div><img src="images/img12.jpg" alt="" width="195px" height="270px" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div><img src="images/img10.jpg" alt="" width="495px" /></div>
+              <div><img src="images/img13.jpg" alt="" width="495px" /></div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="text-center">
+            <h2>Top Projects</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque, cumque ullam ut totam
+              dolorem eligendi quisquam porro ipsa ipsum veritatis nesciunt ex dolorum repellat eaque eius deleniti
+              minima optio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid text-center bg-warning text-white p-5">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">&copy; All Rights Reserved</div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>
