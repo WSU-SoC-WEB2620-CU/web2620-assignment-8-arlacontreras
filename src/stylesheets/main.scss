@@ -6,6 +6,9 @@ $primary: #d63384;
 .mainContainer {
   padding: 0 5%;
 }
+h1, p.lead {
+  color: black;
+}
 h2 {
   color: #d63384;
 }
@@ -25,5 +28,10 @@ h2 {
 }
 
 .galleryHeader {
-  padding: 35px ;
+  padding: 35px;
+}
+
+.footerBIcon {
+  color: $primary;
+  font-size: 40px;
 }
